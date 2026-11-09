@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 
-# Esta linha é obrigatória para criar o 'app'
 app = FastAPI()
 
 @app.get("/")
